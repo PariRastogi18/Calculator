@@ -6,9 +6,8 @@ A clean and easy-to-use **Simple Calculator** built using **HTML**, **CSS**, and
 
 ## 🔗 Live Demo
 
-👉 [Click here to use the calculator](https://your-github-username.github.io/simple-calculator)
+👉 [Click here to use the calculator](https://calculator-ten-beta-38.vercel.app/)
 
-> Replace the above link with your actual GitHub Pages URL.
 
 ---
 
