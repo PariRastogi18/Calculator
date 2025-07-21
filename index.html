@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+     </head>
+  <body>
+    <div class="calculator">
+      <input type="text " id="display" readonly />
+      <div class="btns">
+        <button class="operator" onclick="clearDisplay()">C</button>
+        <button class="operator" onclick="backSpace()">Backspace</button>
+        <button onclick="append('%')" class="operator">%</button>
+        <button onclick="append('/')" class="operator">/</button>
+
+        <button onclick="append('7')" class="digit">7</button>
+        <button onclick="append('9')" class="digit">9</button>
+        <button onclick="append('8')" class="digit">8</button>
+        <button onclick="append('*')" class="operator">*</button>
+
+        <button onclick="append('4')" class="digit">4</button>
+        <button onclick="append('5')" class="digit">5</button>
+        <button onclick="append('6')" class="digit">6</button>
+        <button onclick="append('-')" class="operator">-</button>
+
+        <button onclick="append('1')" class="digit">1</button>
+        <button onclick="append('2')" class="digit">2</button>
+        <button onclick="append('3')" class="digit">3</button>
+        <button onclick="append('+')" class="operator">+</button>
+
+        <button onclick="append('0')" class="digit">0</button>
+        <button onclick="append('00')" class="digit">00</button>
+        <button onclick="append('.')" class="digit">.</button>
+        <button class="equl" onclick="equl()">=</button>
+      </div>
+    </div>
+  </body>
+</html>
